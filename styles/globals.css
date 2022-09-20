@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Bubbly';
+  src:  url('/assets/fonts/bubbly-regular-webfont.woff2') format('woff2'),
+        url('/assets/fonts/bubbly-regular-webfont.woff') format('woff'),
+       url('/assets/fonts/bubbly-regular-webfont.ttf') format('truetype');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+
+    color: white;
+    background: linear-gradient(110.92deg, #EFC78A 68.12%, #FFFFFF 118.03%);
+}
+
+html { font-size: 10px; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
